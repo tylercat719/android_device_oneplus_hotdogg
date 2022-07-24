@@ -15,7 +15,7 @@ $(call inherit-product, device/oneplus/hotdogg/device.mk)
 $(call inherit-product, vendor/oneplus/apps/hotdogg/config.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_hotdogg
